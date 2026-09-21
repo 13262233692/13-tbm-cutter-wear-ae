@@ -1,0 +1,39 @@
+{
+  "report_type": "tbm_cutter_wear_monitoring",
+  "num_sensors": 8,
+  "num_windows": 61,
+  "current_status": {
+    "timestamp": 120.0,
+    "degradation_index": 0.8644,
+    "wear_stage": "严重磨损",
+    "wear_stage_index": 3
+  },
+  "feature_summary": {
+    "rms": {
+      "latest": 1.0308,
+      "mean": 0.2254,
+      "max": 1.0308
+    },
+    "kurtosis": {
+      "latest": 149.6928,
+      "mean": 343.4971,
+      "max": 566.0714
+    },
+    "spectral_centroid": {
+      "latest": 216784.624,
+      "mean": 172843.0862,
+      "max": 227729.381
+    }
+  },
+  "rul_prediction": {
+    "model": "two-parameter Weibull",
+    "weibull_shape_beta": 9.3875,
+    "weibull_scale_eta_hours": 129.13,
+    "current_age_hours": 120.0,
+    "reliability": 0.605,
+    "rul_median_hours": 11.61,
+    "rul_p10_hours": 2.46,
+    "rul_p90_hours": 24.12,
+    "rul_trend_hours": 38.83
+  }
+}

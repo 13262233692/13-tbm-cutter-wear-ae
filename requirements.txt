@@ -1,0 +1,5 @@
+numpy
+scipy
+PyWavelets
+h5py
+matplotlib
