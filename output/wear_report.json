@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "system": "TBM Cutter Wear AE Monitoring",
+    "generated_at": "2026-09-21T11:15:31",
+    "sampling_rate_hz": 1000000,
+    "num_sensors": 8,
+    "failure_threshold_di": 0.85
+  },
+  "time_range_h": [
+    1.0,
+    500.0
+  ],
+  "overall": {
+    "worst_sensor": "S3",
+    "worst_di": 0.8250750444454791,
+    "wear_state": "severe",
+    "wear_state_label": "严重磨损",
+    "min_rul_hours": 106.50339904548787
+  },
+  "sensors": [
+    {
+      "sensor_id": "S1",
+      "position": {
+        "radius_m": 0.5,
+        "angle_deg": 0.0
+      },
+      "current_di": 0.7592089859410154,
+      "wear_state": "severe",
+      "wear_state_label": "严重磨损",
+      "weibull": {
+        "beta": 0.8109786268580994,
+        "eta": 439.1047836546082,
+        "r_squared": 0.8966308058506351,
+        "n_samples": 39
+      },
+      "rul_hours": 288.24173941226,
+      "predicted_failure_time_h": 967.1209255410449
+    },
+    {
+      "sensor_id": "S2",
+      "position": {
+        "radius_m": 0.5,
+        "angle_deg": 90.0
+      },
+      "current_di": 0.6313742935107866,
+      "wear_state": "mild",
+      "wear_state_label": "轻度磨损",
+      "weibull": {
+        "beta": 1.030380350442951,
+        "eta": 575.3733250693233,
+        "r_squared": 0.938995746352248,
+        "n_samples": 39
+      },
+      "rul_hours": 496.89529714248226,
+      "predicted_failure_time_h": 1071.1369705764064
+    },
+    {
+      "sensor_id": "S3",
+      "position": {
+        "radius_m": 0.5,
+        "angle_deg": 180.0
+      },
+      "current_di": 0.8250750444454791,
+      "wear_state": "severe",
+      "wear_state_label": "严重磨损",
+      "weibull": {
+        "beta": 0.7055692261565287,
+        "eta": 380.7559965965406,
+        "r_squared": 0.8662646105671504,
+        "n_samples": 39
+      },
+      "rul_hours": 106.50339904548787,
+      "predicted_failure_time_h": 943.6028066611035
+    },
+    {
+      "sensor_id": "S4",
+      "position": {
+        "radius_m": 0.5,
+        "angle_deg": 270.0
+      },
+      "current_di": 0.75,
+      "wear_state": "severe",
+      "wear_state_label": "严重磨损",
+      "weibull": {
+        "beta": 0.6779325786297647,
+        "eta": 456.6283165257891,
+        "r_squared": 0.8068028531540349,
+        "n_samples": 39
+      },
+      "rul_hours": 435.0017320753252,
+      "predicted_failure_time_h": 1174.2834811412208
+    },
+    {
+      "sensor_id": "S5",
+      "position": {
+        "radius_m": 1.2,
+        "angle_deg": 45.0
+      },
+      "current_di": 0.6708433553580864,
+      "wear_state": "severe",
+      "wear_state_label": "严重磨损",
+      "weibull": {
+        "beta": 1.2375133604445483,
+        "eta": 538.6338997112294,
+        "r_squared": 0.9253953947805389,
+        "n_samples": 37
+      },
+      "rul_hours": 317.13081778615356,
+      "predicted_failure_time_h": 903.6792841788564
+    },
+    {
+      "sensor_id": "S6",
+      "position": {
+        "radius_m": 1.2,
+        "angle_deg": 135.0
+      },
+      "current_di": 0.7263269115733719,
+      "wear_state": "severe",
+      "wear_state_label": "严重磨损",
+      "weibull": {
+        "beta": 0.7412983961569528,
+        "eta": 512.1767936674838,
+        "r_squared": 0.8008538271181693,
+        "n_samples": 39
+      },
+      "rul_hours": 488.4601021147722,
+      "predicted_failure_time_h": 1214.9697164707825
+    },
+    {
+      "sensor_id": "S7",
+      "position": {
+        "radius_m": 1.2,
+        "angle_deg": 225.0
+      },
+      "current_di": 0.7087466140448344,
+      "wear_state": "severe",
+      "wear_state_label": "严重磨损",
+      "weibull": {
+        "beta": 0.5960812731317496,
+        "eta": 393.436018509196,
+        "r_squared": 0.8753287383399547,
+        "n_samples": 39
+      },
+      "rul_hours": 592.3841492763149,
+      "predicted_failure_time_h": 1151.8939813917584
+    },
+    {
+      "sensor_id": "S8",
+      "position": {
+        "radius_m": 1.2,
+        "angle_deg": 315.0
+      },
+      "current_di": 0.6289654472890898,
+      "wear_state": "mild",
+      "wear_state_label": "轻度磨损",
+      "weibull": {
+        "beta": 1.0286394902841511,
+        "eta": 477.60634314287205,
+        "r_squared": 0.9324856919959716,
+        "n_samples": 39
+      },
+      "rul_hours": 416.42513989546063,
+      "predicted_failure_time_h": 890.0658535708994
+    }
+  ],
+  "figures": {
+    "feature_trends": "output/figures/feature_trends.png",
+    "di_weibull": "output/figures/di_weibull.png",
+    "denoise_comparison": "output/figures/denoise_comparison.png"
+  }
+}
